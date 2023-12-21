@@ -9,10 +9,10 @@
 
 ### 🌐 Connect with Me
 
-Portfolio Website : https://bhargavtalpada.netlify.app/
-LinkedIn : https://www.linkedin.com/in/bhargav-talpada-55aa24261/
-Instagram : https://www.instagram.com/itz._.bhuro_/
-Facebook : https://www.facebook.com/profile.php?id=100071882063129
+Portfolio Website : https://bhargavtalpada.netlify.app/ <br/> 
+LinkedIn : https://www.linkedin.com/in/bhargav-talpada-55aa24261/ <br/>
+Instagram : https://www.instagram.com/itz._.bhuro_/ <br/>
+Facebook : https://www.facebook.com/profile.php?id=100071882063129 <br/>
 
 ### 📚 Skills
 

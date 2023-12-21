@@ -1,8 +1,8 @@
-#My-Portfolio
+##My-Portfolio
 
 🌟✨ Welcome to My Portfoilo ! ✨🌟
 
-## 👋 Hello there!
+# 👋 Hello there!
 
  I'm Bhargav Talpada, a passionate Web developer with a love for coding and building things that make a difference. This repository serves as a portfolio of some of my projects, demonstrating my skills and interests in various areas of software development.
 

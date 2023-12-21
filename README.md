@@ -16,11 +16,11 @@ Facebook : https://www.facebook.com/profile.php?id=100071882063129 <br/>
 
 ### 📚 Skills
 
-Programming Languages: ASP.NET
-Web Development: Html, Css, Java Script, ReactJS, Tailwind Css
-Database Management: Mysql, Sql 
-Version Control: Git, GitHub
-Other: Canva
+Programming Languages: ASP.NET <br/>
+Web Development: Html, Css, Java Script, ReactJS, Tailwind Css <br/>
+Database Management: Mysql, Sql   <br/>
+Version Control: Git, GitHub <br/>
+Other: Canva <br/>
 
 ### 📬 Contact
 

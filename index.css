@@ -704,62 +704,30 @@ header {
   text-align: center;
   font-size: 40px;
 }
-input{
-  width: 500px;
-  padding: 15px;
-  font-size: 20px;
-  margin-top: 10px;
-  border: 2px solid black;
-  border-radius: 10px;
-}
-textarea{
-  width: 500px;
-  height: 200px;
-  font-size: 20px;
-  padding: 15px;
-  margin-top: 10px;
-  border: 2px solid black;
-  border-radius: 10px;
-}
-@media (max-width : 700px) {
-  input{
-    width: 300px;
-  }
-  textarea{
-    width: 300px;
-  }
-}
-@media (max-width : 500px) {
-  input{
-    width: 250px;
-  }
-  textarea{
-    width: 250px;
-  }
-}
+.contact-box{
 
-@media (max-width : 400px) {
-  input{
-    width: 200px;
-  }
-  textarea{
-    width: 200px;
-  }
-}
-button{
-  margin-top: 20px;
-  font-size: 20px;
-  text-align: center;
-  padding: 15px 20px;
-  border: 2px solid black;
-  border-radius: 10px;
-  background-color: blue;
-  color: white;
-  transition: 1s ease-in-out;
-}
-button:hover{
-  color: blue;
   background-color: white;
+  margin: 0 0 50px 0;
+  padding: 25px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px 5px rgb(35, 39, 39);
+}
+.contact-box p{
+  font-size: 30px;
+  color: #2c0dda;
+  margin-top: 10px;
+}
+@media (max-width : 400px) {
+  .contact-box p{
+    font-size: 20px;
+  }
+}
+.contact-box p i{
+  color: black;
+  margin-right: 10px;
+}
+.contact-box p span{
+  color: #ff7b00;
 }
 footer{
   padding: 100px;

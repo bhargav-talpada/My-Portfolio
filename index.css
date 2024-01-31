@@ -45,7 +45,7 @@ header {
     color: #0e2431;
     font-weight: 600;
     text-decoration: none;
-    transition: 0.2s;
+    transition: 0.3s;
   }
   header .navbar ul li a.active,
   header .navbar ul li a:hover {
@@ -78,6 +78,10 @@ header {
   .social a i{
     font-size: 30px;
     color: #0e2431;
+    transition: scale 0.6s ease-in-out;
+  }
+  .social a i:hover{
+    scale: 1.3;
   }
   @media(max-width:700px){
     .home{
@@ -529,6 +533,10 @@ header {
 }
 .work-box1 .work-img{
   width: 350px;
+  transition: scale 0.6s ease-in-out;
+}
+.work-box1 .work-img:hover{
+  scale: 1.1;
 }
 .work-box1 h4{
   font-size: 30px;
@@ -550,6 +558,7 @@ header {
   padding: 15px;
   width: 150px;
   margin-top: 20px;
+  transition: scale 0.6s ease-in-out;
 }
 .work-box1 .btn2{
   margin-left: 20px;
@@ -563,6 +572,13 @@ header {
   padding: 15px;
   width: 150px;
   margin-top: 20px;
+  transition: scale 0.6s ease-in-out;
+}
+.work-box1 .btn1:hover,
+.work-box1 .btn2:hover{
+  color: #08bdc4;
+  border: 2px solid white;
+  scale: 1.1;
 }
 
 .work-box2{
@@ -577,6 +593,10 @@ header {
 }
 .work-box2 .work-img2{
   width: 345px;
+  transition: scale 0.6s ease-in-out;
+}
+.work-box2 .work-img2:hover{
+  scale: 1.1;
 }
 .work-box2 h4{
   font-size: 30px;
@@ -598,6 +618,7 @@ header {
   padding: 15px;
   width: 150px;
   margin-top: 20px;
+  transition: scale 0.6s ease-in-out;
 }
 .work-box2 .btn4{
   border: 2px solid #08bdc4;
@@ -611,6 +632,13 @@ header {
   width: 150px;
   margin-top: 20px;
   margin-left: 20px;
+  transition: scale 0.6s ease-in-out;
+}
+.work-box2 .btn3:hover,
+.work-box2 .btn4:hover{
+  color: #08bdc4;
+  border: 2px solid white;
+  scale: 1.1;
 }
 .work-box3{
 
@@ -624,6 +652,10 @@ header {
 }
 .work-box3 .work-img3{
   width: 345px;
+  transition: scale 0.6s ease-in-out;
+}
+.work-box3 .work-img3:hover{
+  scale: 1.1;
 }
 .work-box3 h4{
   font-size: 30px;
@@ -645,6 +677,7 @@ header {
   padding: 15px;
   width: 150px;
   margin-top: 20px;
+  transition: scale 0.6s ease-in-out;
 }
 .work-box3 .btn6{
   border: 2px solid #08bdc4;
@@ -658,6 +691,13 @@ header {
   width: 150px;
   margin-top: 20px;
   margin-left: 20px;
+  transition: scale 0.6s ease-in-out;
+}
+.work-box3 .btn5:hover,
+.work-box3 .btn6:hover{
+  color: #08bdc4;
+  border: 2px solid whi;
+  scale: 1.1;
 }
 @media (max-width : 350px) {
   .work{

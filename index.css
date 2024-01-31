@@ -696,7 +696,7 @@ header {
 .work-box3 .btn5:hover,
 .work-box3 .btn6:hover{
   color: #08bdc4;
-  border: 2px solid whi;
+  border: 2px solid white;
   scale: 1.1;
 }
 @media (max-width : 350px) {

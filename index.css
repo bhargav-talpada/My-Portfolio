@@ -199,6 +199,10 @@ header {
     width: 150px;
     padding: 35px;
     border-radius: 20px;
+    transition: scale 0.6s ease-in-out
+  }
+  .html-box:hover{
+    scale: 1.05;
     box-shadow: 5px 5px 10px 5px rgb(182, 74, 2);
   }
 .html-box img{
@@ -216,6 +220,10 @@ header {
   width: 150px;
   padding: 35px;
   border-radius: 20px;
+  transition: scale 0.6s ease-in-out;
+}
+.css-box:hover{
+  scale: 1.05;
   box-shadow: 5px 5px 10px 5px rgb(4, 58, 138);
 }
 .css-box img{
@@ -233,6 +241,10 @@ header {
   width: 150px;
   padding: 35px;
   border-radius: 20px;
+  transition: scale 0.6s ease-in-out;
+}
+.js-box:hover{
+  scale: 1.05;
   box-shadow: 5px 5px 10px 5px rgb(134, 136, 3);
 }
 .js-box img{
@@ -250,7 +262,12 @@ header {
   width: 150px;
   padding: 35px;
   border-radius: 20px;
-  box-shadow: 5px 5px 10px 5px rgb(134, 136, 3);
+  transition: scale 0.6s ease-in-out;
+}
+.react-box:hover{
+  scale: 1.05;
+  /* box-shadow: 5px 5px 10px 5px rgb(134, 136, 3); */
+  box-shadow: 5px 5px 10px 5px rgb(4, 170, 170);
 }
 .react-box img{
   width: 150px;
@@ -267,6 +284,10 @@ header {
   width: 150px;
   padding: 35px;
   border-radius: 20px;
+  transition: scale 0.6s ease-in-out;
+}
+.tailwind-box:hover{
+  scale: 1.05;
   box-shadow: 5px 5px 10px 5px rgb(4, 170, 170);
 }
 .tailwind-box img{
@@ -284,6 +305,10 @@ header {
   width: 150px;
   padding: 35px;
   border-radius: 20px;
+  transition: scale 0.6s ease-in-out;
+}
+.bootstrap-box:hover{
+  scale: 1.05;
   box-shadow: 5px 5px 10px 5px rgb(93, 4, 194);
 }
 .bootstrap-box img{
@@ -300,6 +325,10 @@ header {
   width: 150px;
   padding: 35px;
   border-radius: 20px;
+  transition: scale 0.6s ease-in-out;
+}
+.github-box:hover{
+  scale: 1.05;
   box-shadow: 5px 5px 10px 5px rgb(78, 73, 83);
 }
 .github-box img{
@@ -318,7 +347,11 @@ header {
   width: 150px;
   padding: 35px;
   border-radius: 20px;
+  transition: scale 0.6s ease-in-out;
+}
+.asp-box:hover{
   box-shadow: 5px 5px 10px 5px rgb(22, 63, 175);
+  scale: 1.05;
 }
 .asp-box img{
   width: 150px;
@@ -336,6 +369,10 @@ header {
   width: 150px;
   padding: 35px;
   border-radius: 20px;
+  transition: scale 0.6s ease-in-out
+}
+.canva-box:hover{
+  scale: 1.05;
   box-shadow: 5px 5px 10px 5px rgb(4, 170, 170);
 }
 .canva-box img{

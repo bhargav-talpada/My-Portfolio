@@ -107,10 +107,9 @@ header {
   }
   .about {
     background: rgb(255, 255, 255);
-    padding: 100px;
+    padding: 160px;
   }
   .about .heading{
-    margin-top: 20px;
     text-align: center;
     font-size: 40px;
   }
@@ -118,12 +117,36 @@ header {
     color: #0e12ee;
   }
   .about .row .content {
-    padding: 40px;
-  }
-  .about .row .content h3 {
-    color: rgb(165, 230, 14);
-    font-size: 55px;
     margin-top: 40px;
+    overflow: hidden;
+  }
+  .about .row .content .text {
+    color: rgb(165, 230, 14);
+    font-size: 40px;
+    position: relative;
+    font-weight: 600;
+  }
+  .about .row .content .text.first-text{
+    color: black;
+  }
+  .text.sec-text::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    border-left:2px solid rgb(165, 230, 14);
+    animation: animate 4s steps(12) infinite;
+  }
+  @keyframes animate{
+    40%, 60%{
+      left: calc(100% + 4px);
+    }
+    100%{
+      left: 0%;
+    }
   }
   .about .row .content .tag {   
     font-size: 30px;
@@ -131,7 +154,7 @@ header {
     font-weight: 600;
   }
   .about .row .content p {
-    font-size: 25px;
+    font-size: 30px;
     margin-top: 30px;
     font-weight: 600;
     text-transform: none;
@@ -149,8 +172,8 @@ header {
     .about .heading{
       font-size: 30px;
     }
-    .about .row .content h3{
-      font-size: 40px;
+    .about .row .content .text{
+      font-size: 30px;
     }
     .about .row .content .tag{
       font-size: 25px;

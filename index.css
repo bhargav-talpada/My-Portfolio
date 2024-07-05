@@ -87,6 +87,7 @@ header {
     .home{
       display: grid;
       gap: 20px;
+      padding: 50px;
     }
   }
   .home .content h2 span {
@@ -103,6 +104,17 @@ header {
   @media(max-width:450px){
     .home img{
       width: 250px;
+    }
+    .home .content h2{
+      font-size: 40px;
+    }
+    .home .content h2 span{
+      font-size: 40px;
+    }
+  }
+  @media(max-width:350px){
+    .home img{
+      width: 200px;
     }
   }
   .about {
@@ -167,7 +179,7 @@ header {
   }
   @media (max-width:450px){
     .about{
-      padding: 0;
+      padding: 20px;
     }
     .about .heading{
       font-size: 30px;
@@ -759,26 +771,45 @@ header {
   border: 2px solid white;
   scale: 1.1;
 }
+@media (max-width : 420px){
+  .work-box1{
+    width: 300px
+  }
+  .work-box1 .work-img{
+    width: auto;
+  }
+  .work-box2{
+    width: 300px;
+  }
+  .work-box2 .work-img2{
+    width: auto;
+  }.work-box3{
+    width: 300px;
+  }
+  .work-box3 .work-img3{
+    width: auto;
+  }
+}
 @media (max-width : 350px) {
   .work{
     padding: 25px;
   }
   .work-box1{
-    width: 250px;
+    width: 200px;
   }
   .work-box1 .work-img{
-    width: 250px;
+    width: auto;
   }
   .work-box2{
-    width: 250px;
+    width: 200px;
   }
   .work-box2 .work-img2{
-    width: 250px;
+    width: auto;
   }.work-box3{
-    width: 250px;
+    width: 200px;
   }
   .work-box3 .work-img3{
-    width: 250px;
+    width: auto;
   }
 }
 
@@ -805,7 +836,6 @@ header {
   font-size: 40px;
 }
 .contact-box{
-
   background-color: white;
   margin: 0 0 50px 0;
   padding: 25px;
@@ -818,8 +848,12 @@ header {
   margin-top: 10px;
 }
 @media (max-width : 400px) {
+  .contact-box{
+    width: 280px;
+    padding: 10px;
+  }
   .contact-box p{
-    font-size: 20px;
+    font-size: 17px
   }
 }
 .contact-box p i{

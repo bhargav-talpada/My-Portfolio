@@ -16,6 +16,7 @@ header {
     z-index: 1000;
     display: flex;
     align-items: center;
+    width: 100%;
     justify-content: space-between;
     padding: 20px 50px;
     background-color: #ffffff;
@@ -112,7 +113,15 @@ header {
       font-size: 40px;
     }
   }
+  @media (max-width:300px){
+    header{
+      width: 70%;
+    }
+  }
   @media(max-width:350px){
+    .first{
+      padding-top: 0;
+    }
     .home img{
       width: 200px;
     }

@@ -108,6 +108,7 @@ header {
     }
     .home .content h2{
       font-size: 40px;
+      padding-top: 50px;
     }
     .home .content h2 span{
       font-size: 40px;
@@ -119,9 +120,6 @@ header {
     }
   }
   @media(max-width:350px){
-    .first{
-      padding-top: 0;
-    }
     .home img{
       width: 200px;
     }

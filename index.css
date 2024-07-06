@@ -34,6 +34,9 @@ header {
     justify-content: center;
     align-items: center;
   }
+  header .navbar{
+    padding-right: 70px;
+  }
   header .navbar li {
     margin-left: 40px;
   }

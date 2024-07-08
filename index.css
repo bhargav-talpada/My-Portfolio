@@ -40,6 +40,11 @@ header {
   header .navbar li {
     margin-left: 40px;
   }
+  @media(max-width:775px){
+    header .navbar li{
+      margin-left: 0;
+    }
+  }
   .first{
     display: grid !important;
     justify-content: center;
